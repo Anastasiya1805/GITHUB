@@ -1,0 +1,14 @@
+ID: 1
+Summary: 
+Incident Description: 
+Pre-condition: 
+Steps:
+Actual result:
+Expected result: 
+Environment:
+Build:
+Attempts to repeat: 
+Impact:
+Severity:
+Priority:
+Attachment

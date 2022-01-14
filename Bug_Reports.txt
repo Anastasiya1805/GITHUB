@@ -1,0 +1,19 @@
+ID: 1
+Summary: На сайте Employers&Employees в меню " Сущности" в подразделах "Region", "Location", "Task", "Job" не удаляются записи
+Incident Description: На сайте Employers&Employees в меню "Сущности" в подразделах "Region", "Location", "Task", "Job" не удаляются записи.
+Pre-condition: Ресурс https://arcane-cliffs-69468.herokuapp.com/account/settings Открыта страница "Сущности", подаздел "Region".
+Steps: 1. Открыть меню "Профиль"
+       2. Выбрать меню "Сущности"
+       3. Выбрать все подразделы,нажать любой из подразделов "Region", "Location", "Task", "Job"  
+       4. Выбрать любую запись
+       5. Нажать "Удалить"
+Actual result:"Команда ""Удалить запись"" не срабатывает в подразделах "Region", "]"Location", "Task"", "Job"/
+Expected result: Команда "Удалить запись" должна работать во всех подразделах меню "Сущности"
+Environment: Windous 7, Chrome  93.0.4577.63
+Build:
+Attempts to repeat: Дефект воспроизводится постоянно
+Impact:"Пользователь не может удалить данные, которые ему не требуются"
+Severity:3
+Priority:3
+Attachment
+

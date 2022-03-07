@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<Bug_report>
+  <ID>1</ID>
+  <Summary>Во вкладке Поля и выборе поля в его описании площадь поля для учета отображается с округлением до сотых<Summary>
+  <Steps>1.Выбрать вкладку Хозяйство в левом нижнем углу</Steps>
+  <Steps>2.Тапнуть на любое из хозяйств</Steps>
+  <Steps>3.В левом углу тапнуть на любой из имеющихся полей</Steps>
+  <Steps>4. Длинным тапом снизу-вверх вытянуть информацию о выбранном поле</Steps>
+  <Steps>5. Посмотреть в каком формате написана площадь для учета</Steps>
+<Expectedresult>Площадь для учета написана в Га с округлением до десятых</Expectedresult>
+<Actualresult>Площадь для учета написана в Га с округлением до сотых</Actualresult>
+<Enviroment>Окружение SkyScout, версия 3.9.0.0001 iPhone 7+ IOS 15.1</Enviroment>
+<Severity>Low</Severity>
+<Priority>Normal</Priority>
+</Bug_report>
+
